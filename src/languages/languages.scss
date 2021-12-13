@@ -1,0 +1,7 @@
+@import "./src/App/App.scss";
+
+div .Languages {
+  background-color: #ffbc40;
+  border-radius: $borderR;
+  @include blocksStyles
+}

@@ -1,0 +1,8 @@
+@import "./src/App/App.scss";
+
+div .Generalinfo   {
+  background-color: #DA8275;
+  border-radius: $borderR;
+  @include blocksStyles;
+
+}

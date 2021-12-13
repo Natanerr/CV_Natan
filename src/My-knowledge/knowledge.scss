@@ -1,0 +1,7 @@
+@import "./src/App/App.scss";
+
+div .Knowledge {
+  background-color: #F4E76F;
+  border-radius: $borderR;
+  @include blocksStyles
+}

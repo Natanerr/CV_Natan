@@ -1,0 +1,159 @@
+@import "./src/App/App.scss";
+
+body {
+
+  div {
+    .Avatar {
+      width: 330px;
+      height: auto;
+      border-radius: 10%;
+    }
+
+    .AvatarContainer {
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+
+    .AvatarContainer p {
+      color: #86898f;
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-size: $DescFontSize;
+    }
+
+    .SelfDescription {
+      display: flex;
+    }
+  }
+
+  h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: $H1fontSize;
+  }
+
+  @media screen and (max-width: 992px) {
+    div .SelfDescription p {
+      font-size: 25px;
+    }
+  }
+
+  @media screen and (max-width: 810px) {
+    div .SelfDescription p {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 810px) {
+    div .SelfDescription {
+      display: block;
+    }
+
+    div .SelfDescription p {
+      font-size: 25px;
+    }
+
+    div .SelfDescription h1 {
+     margin-left: 30%;
+    }
+
+    div .Avatar {
+      width: 500px;
+      margin-left: 15%
+    }
+
+  }
+
+  @media screen and (max-width: 730px) {
+    div .Avatar {
+      width: 450px;
+    }
+    div .SelfDescription h1 {
+      margin-left: 25%;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    div .Avatar {
+      width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    div .Avatar {
+      margin-left: 10%;
+    }
+
+    div .SelfDescription h1 {
+      margin-left: 20%;
+    }
+
+  }
+
+  @media screen and (max-width: 550px) {
+    div .Avatar {
+      margin-left: 5%;
+    }
+
+    div .SelfDescription h1 {
+      margin-left: 10%;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    div .Avatar {
+      margin-left: 0;
+    }
+
+    div .SelfDescription h1 {
+      margin-left: 5%;
+    }
+
+  }
+
+  @media screen and (max-width: 450px) {
+    div .Avatar {
+      width: 350px;
+    }
+
+    div .SelfDescription h1 {
+      margin-left: 5%;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    div .Avatar {
+      width: 300px;
+    }
+
+    div .SelfDescription h1{
+      font-size: 35px;
+    }
+
+    div .SelfDescription p{
+      font-size: 20px;
+      margin: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 350px) {
+    div .Avatar {
+      width: 250px;
+    }
+
+    div .SelfDescription h1{
+      font-size: 30px;
+    }
+
+    div .SelfDescription p{
+      font-size: 17px;
+    }
+
+  }
+
+
+}
+

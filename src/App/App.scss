@@ -1,0 +1,74 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+/* mixins */
+@mixin blocksStyles {
+  padding: {
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+  }
+
+  box: {
+    sizing: border-box;
+  }
+
+  margin: {
+    bottom: 15px;
+  }
+
+}
+/* variables */
+$DescFontSize: 30px;
+$H1fontSize: 50px;
+$borderR: 25px;
+
+/* breakpoints */
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+/* names */
+$MName: margin;
+
+
+body {
+  /* page's background */
+
+  background-color: bisque;
+
+  /* default fonts */
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+
+
+  /* container */
+  div .container {
+  max-width: 1050px;
+    margin: auto;
+  }
+
+  h2 {
+    #{$MName}-left: 20px;
+    #{$MName}-bottom: 15px;
+  }
+
+  ul {
+    padding: 0 20px;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  p {
+    #{$MName}-left: 20px;
+  }
+
+}

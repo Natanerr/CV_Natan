@@ -1,0 +1,17 @@
+@import "./src/App/App.scss";
+
+div {
+
+  .FAQ {
+    background-color: #BDE1EA;
+    border-radius: $borderR;
+  }
+
+  @include blocksStyles;
+
+  h3 {
+    #{$MName}-left: 20px;
+  }
+
+
+}
